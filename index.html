@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramires Vendas | iPhones & Apple Watch 24KT Gold</title>
+  <meta name="description" content="Ramires Vendas — iPhones e Apple Watch banhados a ouro 24KT. Edições limitadas exclusivas. Entrega em todo o Brasil. 8 anos de mercado." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <img src="assets/images/logo.jpg" alt="Ramires Vendas" />
+        <span>RAMIRES <em>VENDAS</em></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#produtos">Produtos</a>
+        <a href="#iphones">iPhones</a>
+        <a href="#watches">Apple Watch</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="nav-cta">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="Carrinho">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="assets/images/hero-phones.jpeg" alt="iPhones 24KT Gold" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Edições Limitadas · 24KT Gold</p>
+      <h1 class="hero-title">O Luxo que<br /><span>Cabe na sua Mão</span></h1>
+      <p class="hero-sub">iPhones e Apple Watch banhados a ouro 24 quilates.<br />Empresa brasileira. Entrega em todo o país.</p>
+      <div class="hero-actions">
+        <a href="#produtos" class="btn btn-gold">Ver Coleção</a>
+        <a href="https://wa.me/5511917949412" target="_blank" class="btn btn-outline">Falar no WhatsApp</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge"><span>8+</span><small>Anos de Mercado</small></div>
+        <div class="badge"><span>24KT</span><small>Ouro Puro</small></div>
+        <div class="badge"><span>🇧🇷</span><small>Entrega Brasil</small></div>
+      </div>
+    </div>
+    <a href="#produtos" class="hero-scroll">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m6 9 6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">✦</div>
+          <h3>Ouro 24 Quilates</h3>
+          <p>Cada peça é banhada com ouro 24KT de alta pureza, com acabamento espelhado impecável.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">✦</div>
+          <h3>Edições Exclusivas</h3>
+          <p>Cartier, Gucci, Royal, Pegasus — coleções únicas com gravações artesanais e pedras preciosas.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">✦</div>
+          <h3>Empresa Brasileira</h3>
+          <p>8 anos no mercado. Entregamos em todo o Brasil com segurança e rastreamento completo.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">✦</div>
+          <h3>Certificado de Autenticidade</h3>
+          <p>Cada produto acompanha certificado e embalagem premium em caixa banhada a ouro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="products-section" id="produtos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Nossa Coleção</p>
+        <h2 class="section-title">Produtos Exclusivos</h2>
+        <p class="section-sub">Selecione a categoria e encontre a peça perfeita para você.</p>
+      </div>
+
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="iphone">iPhones</button>
+        <button class="filter-btn" data-filter="watch">Apple Watch</button>
+        <button class="filter-btn" data-filter="acessorio">Acessórios</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <!-- iPhones -->
+        <div class="product-card" data-category="iphone" id="iphones">
+          <div class="product-img">
+            <img src="assets/images/iphone-cartier.jpeg" alt="iPhone 17 Pro Max Cartier 24KT" loading="lazy" />
+            <div class="product-badge">BEST SELLER</div>
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(0)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Edição Limitada</span>
+            <h3>iPhone 17 Pro Max <em>Cartier Edition</em></h3>
+            <p>Banhado a ouro 24KT com pantera de diamantes Cartier e gravações artesanais exclusivas.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(0)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-arabescos-render.jpeg" alt="iPhone 17 Pro Max Arabescos" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(1)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Edição Clássica</span>
+            <h3>iPhone 17 Pro Max <em>Classic Arabesque</em></h3>
+            <p>Gravações arabescas simétricas em ouro 24KT. Acabamento espelhado com bordas ornamentais.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(1)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-smooth-render.jpeg" alt="iPhone 17 Pro Max Smooth Gold" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(2)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Pure Gold</span>
+            <h3>iPhone 17 Pro Max <em>Pure Gold</em></h3>
+            <p>Design minimalista totalmente banhado em ouro 24KT. Sofisticação na forma mais pura.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(2)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-royal.jpeg" alt="iPhone 17 Pro Max Royal Edition" loading="lazy" />
+            <div class="product-badge">EXCLUSIVO</div>
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(3)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Royal Edition</span>
+            <h3>iPhone 16 Pro <em>Royal Edition</em></h3>
+            <p>Gravação de coroa real com caligrafia árabe personalizada e arabescos florais em ouro 24KT.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(3)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-pegasus.jpeg" alt="iPhone Pegasus Edition" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(4)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Edição Especial</span>
+            <h3>iPhone 16 Pro <em>Pegasus Edition</em></h3>
+            <p>Imponente gravação do Pégaso alado em alto relevo. Molduras ornamentais em ouro 24KT.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(4)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-gucci.jpeg" alt="iPhone Gucci Bee Edition" loading="lazy" />
+            <div class="product-badge">NOVO</div>
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(5)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Gucci Edition</span>
+            <h3>iPhone 16 Pro Max <em>Gucci Bee</em></h3>
+            <p>Monograma GG em ouro com abelha central cravejada de diamantes e listras multicoloridas.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(5)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-luxury-bee.jpeg" alt="iPhone Luxury Edition 2026" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(6)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Luxury 2026</span>
+            <h3>iPhone 17 Pro Max <em>Luxury Edition</em></h3>
+            <p>Edição 2026 com abelha dourada em relevo e acabamento rose gold com brilho espelhado.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(6)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="iphone">
+          <div class="product-img">
+            <img src="assets/images/iphone-caixa-gold.jpeg" alt="iPhone 17 Pro Max com Caixa Gold" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(7)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">iPhone · Kit Premium</span>
+            <h3>iPhone 17 Pro Max <em>Kit Gold</em></h3>
+            <p>Acompanha caixa premium banhada a ouro e certificado de autenticidade. Presente perfeito.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(7)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Apple Watch -->
+        <div class="product-card" data-category="watch" id="watches">
+          <div class="product-img">
+            <img src="assets/images/watch-colecao.jpeg" alt="Apple Watch 24KT Gold Coleção" loading="lazy" />
+            <div class="product-badge">COLEÇÃO</div>
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(8)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Apple Watch · 24KT Gold</span>
+            <h3>Apple Watch Ultra <em>Gold Collection</em></h3>
+            <p>Coleção completa de Apple Watch banhados a ouro 24KT com gravações exclusivas na pulseira.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(8)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="watch">
+          <div class="product-img">
+            <img src="assets/images/watch-pulso.jpeg" alt="Apple Watch Gold no pulso" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(9)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Apple Watch · Gravado</span>
+            <h3>Apple Watch <em>Engraved Gold</em></h3>
+            <p>Pulseira e caixa completamente banhadas a ouro com detalhes gravados à mão. Elegância total.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(9)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="watch">
+          <div class="product-img">
+            <img src="assets/images/watch-pulseira.jpeg" alt="Pulseira Apple Watch Gold" loading="lazy" />
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(10)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Apple Watch · Pulseira</span>
+            <h3>Pulseira Apple Watch <em>24KT Floral</em></h3>
+            <p>Pulseira metálica banhada a ouro 24KT com gravações florais artesanais. Compatível com todas as séries.</p>
+            <div class="product-footer">
+              <span class="product-price">Consulte</span>
+              <button class="btn-cart" onclick="addToCart(10)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Acessórios -->
+        <div class="product-card" data-category="acessorio">
+          <div class="product-img">
+            <img src="assets/images/airpods-max.jpeg" alt="AirPods Max Geração 2" loading="lazy" />
+            <div class="product-badge">R$ 2.399</div>
+            <div class="product-overlay">
+              <button class="btn-quick" onclick="openModal(11)">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Acessórios · Semi Novo</span>
+            <h3>AirPods Max <em>Geração 2</em></h3>
+            <p>Semi novo impecável. AirPods Max Gen 2, state-of-the-art com cancelamento de ruído ativo.</p>
+            <div class="product-footer">
+              <span class="product-price">R$ 2.399,00</span>
+              <button class="btn-cart" onclick="addToCart(11)">Adicionar</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER MIDDLE -->
+  <section class="banner-mid">
+    <div class="banner-mid-bg">
+      <img src="assets/images/iphone-promo.jpeg" alt="Ramires Vendas" />
+      <div class="banner-mid-overlay"></div>
+    </div>
+    <div class="banner-mid-content container">
+      <p class="section-eyebrow" style="color:#D4AF37">Exclusividade</p>
+      <h2>Peças que Definem<br />um Estilo de Vida</h2>
+      <p>Cada iPhone e Apple Watch banhado a ouro 24KT é uma obra de arte. Personalização disponível sob consulta.</p>
+      <a href="https://wa.me/5511917949412?text=Olá,%20quero%20um%20orçamento%20personalizado" target="_blank" class="btn btn-gold">Solicitar Orçamento</a>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Galeria</p>
+        <h2 class="section-title">Veja de Perto</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall"><img src="assets/images/iphone-cartier2.jpeg" alt="" loading="lazy" /></div>
+        <div class="gallery-item"><img src="assets/images/iphone-17-gold.jpeg" alt="" loading="lazy" /></div>
+        <div class="gallery-item"><img src="assets/images/watch-lado.jpeg" alt="" loading="lazy" /></div>
+        <div class="gallery-item wide"><img src="assets/images/iphone-17-gold2.jpeg" alt="" loading="lazy" /></div>
+        <div class="gallery-item"><img src="assets/images/iphone-royal2.jpeg" alt="" loading="lazy" /></div>
+        <div class="gallery-item"><img src="assets/images/watch-lado2.jpeg" alt="" loading="lazy" /></div>
+        <div class="gallery-item"><img src="assets/images/iphone-red-gold.jpeg" alt="" loading="lazy" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre-section" id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-img">
+          <img src="assets/images/iphone-caixa-gold.jpeg" alt="Ramires Vendas" />
+        </div>
+        <div class="sobre-text">
+          <p class="section-eyebrow">Sobre Nós</p>
+          <h2>8 Anos de Excelência<br />no Mercado</h2>
+          <p>A Ramires Vendas é uma empresa brasileira especializada em produtos Apple de luxo. Há mais de 8 anos no mercado, oferecemos iPhones e Apple Watches banhados a ouro 24 quilates com as mais exclusivas edições do mundo.</p>
+          <p>Atendemos clientes em todo o Brasil com entrega segura, rastreada e embalagem premium. Cada produto acompanha certificado de autenticidade e garantia.</p>
+          <ul class="sobre-list">
+            <li>✦ Empresa 100% brasileira</li>
+            <li>✦ Mais de 8 anos no mercado</li>
+            <li>✦ Entrega em todo o Brasil</li>
+            <li>✦ Certificado de autenticidade incluso</li>
+            <li>✦ Embalagem premium banhada a ouro</li>
+            <li>✦ Atendimento personalizado via WhatsApp</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO / CTA FINAL -->
+  <section class="cta-section" id="contato">
+    <div class="container">
+      <div class="cta-content">
+        <p class="section-eyebrow">Fale Conosco</p>
+        <h2>Pronto para o<br /><span>Próximo Nível?</span></h2>
+        <p>Entre em contato agora pelo WhatsApp e receba atendimento exclusivo. Tire suas dúvidas, faça pedidos e solicite personalização.</p>
+        <a href="https://wa.me/5511917949412?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="btn btn-gold btn-lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.jpg" alt="Ramires Vendas" />
+          <p>Especializados em iPhones e Apple Watch banhados a ouro 24KT. Empresa brasileira há 8 anos no mercado.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <a href="#inicio">Início</a>
+          <a href="#iphones">iPhones</a>
+          <a href="#watches">Apple Watch</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div class="footer-links">
+          <h4>Produtos</h4>
+          <a href="#">iPhone 17 Pro Max</a>
+          <a href="#">Edições Limitadas</a>
+          <a href="#">Apple Watch Gold</a>
+          <a href="#">Acessórios</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <a href="https://wa.me/5511917949412" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            +55 11 91794-9412
+          </a>
+          <p>Atendimento via WhatsApp<br />Seg–Sáb, 9h–20h</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Ramires Vendas. Todos os direitos reservados.</p>
+        <p>Empresa Brasileira · Entrega em todo o Brasil</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/5511917949412?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="wpp-float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+
+  <!-- MODAL PRODUTO -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">×</button>
+      <div class="modal-img" id="modalImg"></div>
+      <div class="modal-body">
+        <span class="product-cat" id="modalCat"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+        <ul class="modal-features" id="modalFeatures"></ul>
+        <div class="modal-actions">
+          <span class="product-price" id="modalPrice"></span>
+          <button class="btn btn-gold" id="modalCartBtn">Adicionar ao Carrinho</button>
+          <a href="https://wa.me/5511917949412" target="_blank" class="btn btn-outline">Consultar Preço</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARRINHO SIDEBAR -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>Meu Carrinho</h3>
+      <button class="cart-close" id="cartClose">×</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <p>Seu carrinho está vazio</p>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cartTotal">—</span>
+      </div>
+      <a href="https://wa.me/5511917949412?text=Olá!%20Tenho%20interesse%20nos%20seguintes%20produtos:" target="_blank" class="btn btn-gold" id="checkoutBtn">Fechar Pedido no WhatsApp</a>
+    </div>
+  </aside>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
