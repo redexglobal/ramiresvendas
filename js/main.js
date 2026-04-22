@@ -1,6 +1,6 @@
 /* Ramires Vendas — main.js */
 
-const WPP = '553499799444';
+const WPP = '5534997994444';
 
 /* =============================================
    TRANSLATIONS
