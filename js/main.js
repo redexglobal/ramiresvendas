@@ -140,67 +140,67 @@ const T = {
 const PRODUCTS = [
   {
     id:0, img:'assets/images/iphone-cartier.jpeg', category:'iphone', badge:'BEST SELLER',
-    name:'iPhone 17 Pro Max Cartier Edition',
+    name:'iPhone 17 Pro Max 256GB Cartier Edition',
     cat:{ pt:'iPhone · Edição Limitada', en:'iPhone · Limited Edition', ar:'آيفون · إصدار محدود' },
     price:'Consulte',
     desc:{ pt:'Banhado a ouro 24KT com pantera de diamantes Cartier e gravações artesanais exclusivas.', en:'Plated in 24KT gold with Cartier diamond panther and exclusive handcrafted engravings.', ar:'مطلي بذهب 24 قيراط مع نمر ماسي كارتييه ونقوش يدوية حصرية.' },
-    features:{ pt:['Banhamento em ouro 24KT','Pantera de diamantes Cartier','iPhone 17 Pro Max original','Caixa premium banhada a ouro','Certificado de autenticidade'], en:['24KT gold plating','Cartier diamond panther','Original iPhone 17 Pro Max','Premium gold-plated box','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نمر ماسي كارتييه','آيفون 17 برو ماكس أصلي','صندوق مطلي بالذهب','شهادة الأصالة'] }
+    features:{ pt:['Banhamento em ouro 24KT','Pantera de diamantes Cartier','iPhone 17 Pro Max 256GB original','Caixa premium banhada a ouro','Certificado de autenticidade'], en:['24KT gold plating','Cartier diamond panther','Original iPhone 17 Pro Max 256GB','Premium gold-plated box','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نمر ماسي كارتييه','آيفون 17 برو ماكس 256GB أصلي','صندوق مطلي بالذهب','شهادة الأصالة'] }
   },
   {
-    id:1, img:'assets/images/iphone-arabescos-render.jpeg', category:'iphone', badge:null,
-    name:'iPhone 17 Pro Max Classic Arabesque',
+    id:1, img:'assets/images/p-11.jpeg', category:'iphone', badge:null,
+    name:'iPhone 17 Pro Max 256GB Classic Arabesque',
     cat:{ pt:'iPhone · Edição Clássica', en:'iPhone · Classic Edition', ar:'آيفون · الإصدار الكلاسيكي' },
     price:'Consulte',
     desc:{ pt:'Gravações arabescas simétricas em ouro 24KT com acabamento espelhado e bordas ornamentais.', en:'Symmetric arabesque engravings in 24KT gold with mirror finish and ornamental borders.', ar:'نقوش عربية متماثلة بذهب 24 قيراط مع تشطيب مرآوي وحدود زخرفية.' },
-    features:{ pt:['Banhamento em ouro 24KT','Gravações arabescas simétricas','Acabamento espelhado premium','iPhone 17 Pro Max original','Certificado de autenticidade'], en:['24KT gold plating','Symmetric arabesque engravings','Premium mirror finish','Original iPhone 17 Pro Max','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقوش عربية متماثلة','تشطيب مرآوي فاخر','آيفون 17 برو ماكس أصلي','شهادة الأصالة'] }
+    features:{ pt:['Banhamento em ouro 24KT','Gravações arabescas simétricas','Acabamento espelhado premium','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT gold plating','Symmetric arabesque engravings','Premium mirror finish','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقوش عربية متماثلة','تشطيب مرآوي فاخر','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
-    id:2, img:'assets/images/iphone-smooth-render.jpeg', category:'iphone', badge:null,
-    name:'iPhone 17 Pro Max Pure Gold',
+    id:2, img:'assets/images/p-18.jpeg', category:'iphone', badge:null,
+    name:'iPhone 17 Pro Max 256GB Pure Gold',
     cat:{ pt:'iPhone · Pure Gold', en:'iPhone · Pure Gold', ar:'آيفون · ذهب خالص' },
     price:'Consulte',
     desc:{ pt:'Design minimalista totalmente banhado em ouro 24KT. Sofisticação na forma mais pura.', en:'Minimalist design fully plated in 24KT gold. Sophistication in its purest form.', ar:'تصميم بسيط مطلي كلياً بذهب 24 قيراط. الرقي في أنقى صوره.' },
-    features:{ pt:['Banhamento em ouro 24KT','Design minimalista','Acabamento espelhado uniforme','iPhone 17 Pro Max original','Certificado de autenticidade'], en:['24KT gold plating','Minimalist design','Uniform mirror finish','Original iPhone 17 Pro Max','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','تصميم بسيط','تشطيب مرآوي موحد','آيفون 17 برو ماكس أصلي','شهادة الأصالة'] }
+    features:{ pt:['Banhamento em ouro 24KT','Design minimalista','Acabamento espelhado uniforme','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT gold plating','Minimalist design','Uniform mirror finish','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','تصميم بسيط','تشطيب مرآوي موحد','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
-    id:3, img:'assets/images/iphone-royal.jpeg', category:'iphone', badge:'EXCLUSIVO',
-    name:'iPhone 16 Pro Royal Edition',
+    id:3, img:'assets/images/p-23.jpeg', category:'iphone', badge:'EXCLUSIVO',
+    name:'iPhone 17 Pro Max 256GB Royal Edition',
     cat:{ pt:'iPhone · Royal Edition', en:'iPhone · Royal Edition', ar:'آيفون · الإصدار الملكي' },
     price:'Consulte',
     desc:{ pt:'Gravação de coroa real com caligrafia árabe personalizada e arabescos florais em ouro 24KT.', en:'Royal crown engraving with personalized Arabic calligraphy and floral arabesques in 24KT gold.', ar:'نقش تاج ملكي مع خط عربي مخصص وزخارف زهرية بذهب 24 قيراط.' },
-    features:{ pt:['Banhamento em ouro 24KT','Gravação de coroa real','Caligrafia árabe personalizada','Arabescos florais premium','Certificado de autenticidade'], en:['24KT gold plating','Royal crown engraving','Custom Arabic calligraphy','Premium floral arabesques','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش تاج ملكي','خط عربي مخصص','زخارف زهرية فاخرة','شهادة الأصالة'] }
+    features:{ pt:['Banhamento em ouro 24KT','Gravação de coroa real','Caligrafia árabe personalizada','Arabescos florais premium','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT gold plating','Royal crown engraving','Custom Arabic calligraphy','Premium floral arabesques','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش تاج ملكي','خط عربي مخصص','زخارف زهرية فاخرة','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
-    id:4, img:'assets/images/iphone-pegasus.jpeg', category:'iphone', badge:null,
-    name:'iPhone 16 Pro Pegasus Edition',
+    id:4, img:'assets/images/p-16.jpeg', category:'iphone', badge:null,
+    name:'iPhone 17 Pro Max 256GB Eagle Edition',
     cat:{ pt:'iPhone · Edição Especial', en:'iPhone · Special Edition', ar:'آيفون · الإصدار الخاص' },
     price:'Consulte',
-    desc:{ pt:'Imponente gravação do Pégaso alado em alto relevo com molduras ornamentais em ouro 24KT.', en:'Majestic winged Pegasus engraving in high relief with ornamental frames in 24KT gold.', ar:'نقش بيغاسوس المجنح بارز مع إطارات زخرفية من ذهب 24 قيراط.' },
-    features:{ pt:['Banhamento em ouro 24KT','Pégaso em alto relevo','Molduras ornamentais','iPhone 16 Pro original','Certificado de autenticidade'], en:['24KT gold plating','Pegasus in high relief','Ornamental frames','Original iPhone 16 Pro','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','بيغاسوس بارز','إطارات زخرفية','آيفون 16 برو أصلي','شهادة الأصالة'] }
+    desc:{ pt:'Gravação de águia em alto relevo com molduras ornamentais. Acabamento rose gold exclusivo.', en:'Eagle engraving in high relief with ornamental frames. Exclusive rose gold finish.', ar:'نقش نسر بارز مع إطارات زخرفية. تشطيب ذهب وردي حصري.' },
+    features:{ pt:['Banhamento rose gold 24KT','Águia em alto relevo','Molduras ornamentais','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT rose gold plating','Eagle in high relief','Ornamental frames','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب وردي 24 قيراط','نسر بارز','إطارات زخرفية','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
-    id:5, img:'assets/images/iphone-gucci.jpeg', category:'iphone', badge:'NOVO',
-    name:'iPhone 16 Pro Max Gucci Bee',
+    id:5, img:'assets/images/p-22.jpeg', category:'iphone', badge:'NOVO',
+    name:'iPhone 17 Pro Max 256GB Gucci Bee',
     cat:{ pt:'iPhone · Gucci Edition', en:'iPhone · Gucci Edition', ar:'آيفون · إصدار غوتشي' },
     price:'Consulte',
-    desc:{ pt:'Monograma GG em ouro com abelha central cravejada de diamantes e listras multicoloridas.', en:'GG monogram in gold with diamond-studded bee and multicolored stripes.', ar:'مونوغرام GG ذهبي مع نحلة مرصعة بالألماس وخطوط متعددة الألوان.' },
-    features:{ pt:['Banhamento em ouro 24KT','Monograma GG gravado','Abelha com diamantes','Listras multicoloridas','Certificado de autenticidade'], en:['24KT gold plating','GG monogram engraved','Diamond-studded bee','Multicolored stripes','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','مونوغرام GG منقوش','نحلة بالألماس','خطوط متعددة الألوان','شهادة الأصالة'] }
+    desc:{ pt:'Monograma Gucci em ouro com abelha central cravejada de diamantes e listras multicoloridas.', en:'Gucci monogram in gold with diamond-studded bee and multicolored stripes.', ar:'مونوغرام غوتشي ذهبي مع نحلة مرصعة بالألماس وخطوط متعددة الألوان.' },
+    features:{ pt:['Banhamento em ouro 24KT','Monograma Gucci gravado','Abelha com diamantes','Listras multicoloridas','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT gold plating','Gucci monogram engraved','Diamond-studded bee','Multicolored stripes','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','مونوغرام غوتشي منقوش','نحلة بالألماس','خطوط متعددة الألوان','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
     id:6, img:'assets/images/iphone-luxury-bee.jpeg', category:'iphone', badge:null,
-    name:'iPhone 17 Pro Max Luxury 2026',
+    name:'iPhone 17 Pro Max 256GB Luxury 2026',
     cat:{ pt:'iPhone · Luxury 2026', en:'iPhone · Luxury 2026', ar:'آيفون · فاخر 2026' },
     price:'Consulte',
     desc:{ pt:'Edição 2026 com abelha dourada em relevo e acabamento rose gold com brilho espelhado incomparável.', en:'2026 edition with raised gold bee and rose gold finish with incomparable mirror shine.', ar:'إصدار 2026 مع نحلة ذهبية بارزة وتشطيب ذهب وردي مع لمعة مرآوية لا مثيل لها.' },
-    features:{ pt:['Acabamento rose gold','Abelha dourada em relevo','Edição 2026 exclusiva','iPhone 17 Pro Max original','Certificado de autenticidade'], en:['Rose gold finish','Raised gold bee','Exclusive 2026 edition','Original iPhone 17 Pro Max','Certificate of authenticity'], ar:['تشطيب ذهب وردي','نحلة ذهبية بارزة','إصدار 2026 حصري','آيفون 17 برو ماكس أصلي','شهادة الأصالة'] }
+    features:{ pt:['Acabamento rose gold','Abelha dourada em relevo','Edição 2026 exclusiva','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['Rose gold finish','Raised gold bee','Exclusive 2026 edition','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['تشطيب ذهب وردي','نحلة ذهبية بارزة','إصدار 2026 حصري','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
     id:7, img:'assets/images/iphone-caixa-gold.jpeg', category:'iphone', badge:null,
-    name:'iPhone 17 Pro Max Kit Gold',
+    name:'iPhone 17 Pro Max 256GB Kit Gold',
     cat:{ pt:'iPhone · Kit Premium', en:'iPhone · Premium Kit', ar:'آيفون · الطقم الفاخر' },
     price:'Consulte',
     desc:{ pt:'Kit completo com iPhone 24KT em caixa premium banhada a ouro e certificado de autenticidade.', en:'Complete kit with 24KT iPhone in premium gold-plated box and certificate of authenticity.', ar:'طقم كامل مع آيفون 24 قيراط في صندوق مطلي بالذهب وشهادة الأصالة.' },
-    features:{ pt:['iPhone 17 Pro Max 24KT','Caixa premium banhada a ouro','Certificado de autenticidade','Embalagem de presente','Entrega rastreada'], en:['iPhone 17 Pro Max 24KT','Premium gold-plated box','Certificate of authenticity','Gift packaging','Tracked delivery'], ar:['آيفون 17 برو ماكس 24 قيراط','صندوق مطلي بالذهب','شهادة الأصالة','تغليف هدية','توصيل مع تتبع'] }
+    features:{ pt:['iPhone 17 Pro Max 256GB 24KT','Caixa premium banhada a ouro','Certificado de autenticidade','Embalagem de presente','Entrega rastreada'], en:['iPhone 17 Pro Max 256GB 24KT','Premium gold-plated box','Certificate of authenticity','Gift packaging','Tracked delivery'], ar:['آيفون 17 برو ماكس 256GB 24 قيراط','صندوق مطلي بالذهب','شهادة الأصالة','تغليف هدية','توصيل مع تتبع'] }
   },
   {
     id:8, img:'assets/images/watch-colecao.jpeg', category:'watch', badge:'COLEÇÃO',
@@ -227,12 +227,20 @@ const PRODUCTS = [
     features:{ pt:['Banhamento ouro 24KT','Gravações florais artesanais','Compatível com todas as séries','Metal premium'], en:['24KT gold plating','Artisan floral engravings','Compatible with all series','Premium metal'], ar:['طلاء ذهب 24 قيراط','نقوش زهرية يدوية','متوافق مع جميع الأجهزة','معدن فاخر'] }
   },
   {
-    id:11, img:'assets/images/airpods-max.jpeg', category:'acessorio', badge:'R$ 2.399',
-    name:'AirPods Max Geração 2',
-    cat:{ pt:'Acessórios · Semi Novo', en:'Accessories · Like New', ar:'إكسسوارات · شبه جديد' },
-    price:'R$ 2.399,00',
-    desc:{ pt:'AirPods Max Geração 2 semi novo impecável com cancelamento de ruído ativo de última geração.', en:'Like-new AirPods Max Gen 2 with state-of-the-art active noise cancellation.', ar:'سماعات AirPods Max الجيل الثاني شبه جديدة مع إلغاء الضوضاء النشط من الجيل الجديد.' },
-    features:{ pt:['AirPods Max Geração 2','Semi novo impecável','Cancelamento de ruído ativo','Áudio espacial','Todos os acessórios inclusos'], en:['AirPods Max Gen 2','Like-new condition','Active noise cancellation','Spatial audio','All accessories included'], ar:['AirPods Max الجيل الثاني','حالة شبه جديدة','إلغاء الضوضاء النشط','صوت مكاني','جميع الملحقات مشمولة'] }
+    id:11, img:'assets/images/airpods-gold-2.jpeg', category:'acessorio', badge:'NOVO',
+    name:'AirPods Max 24KT Gold Edition',
+    cat:{ pt:'Acessórios · Ouro 24KT', en:'Accessories · 24KT Gold', ar:'إكسسوارات · ذهب 24 قيراط' },
+    price:'Consulte',
+    desc:{ pt:'AirPods Max banhados a ouro 24KT com gravação personalizada. Produzidos nos EAU com garantia de 24 meses.', en:'24KT gold-plated AirPods Max with custom engraving. Made in UAE with 24-month warranty.', ar:'سماعات AirPods Max مطلية بذهب 24 قيراط مع نقش مخصص. صُنعت في الإمارات مع ضمان 24 شهراً.' },
+    features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada exclusiva','Produzido nos Emirados Árabes','Garantia 24 meses','Embalagem premium','Certificado de autenticidade'], en:['24KT gold plating','Exclusive custom engraving','Made in UAE','24-month warranty','Premium packaging','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص حصري','صُنع في الإمارات','ضمان 24 شهراً','تغليف فاخر','شهادة الأصالة'] }
+  },
+  {
+    id:12, img:'assets/images/airpods-gold-1.jpeg', category:'acessorio', badge:'EXCLUSIVO',
+    name:'AirPods Max Gold Personalizado',
+    cat:{ pt:'Acessórios · Sob Encomenda', en:'Accessories · Custom Order', ar:'إكسسوارات · طلب مخصص' },
+    price:'Consulte',
+    desc:{ pt:'Crie seu AirPods Max único: banhado a ouro 24KT com seu nome, número ou símbolo gravado. Peça exclusiva feita sob encomenda.', en:'Create your unique AirPods Max: 24KT gold-plated with your name, number or symbol engraved. Exclusive custom-made piece.', ar:'أنشئ سماعات AirPods Max الفريدة الخاصة بك: مطلية بذهب 24 قيراط مع نقش اسمك أو رقمك أو رمزك. قطعة حصرية مصنوعة بالطلب.' },
+    features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada com seu nome/número','Feito sob encomenda','Produzido nos Emirados Árabes','Garantia 24 meses','Certificado de autenticidade'], en:['24KT gold plating','Custom engraving with your name/number','Made to order','Made in UAE','24-month warranty','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص باسمك/رقمك','مصنوع بالطلب','صُنع في الإمارات','ضمان 24 شهراً','شهادة الأصالة'] }
   }
 ];
 
