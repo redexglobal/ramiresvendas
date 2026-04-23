@@ -231,8 +231,8 @@ const PRODUCTS = [
     name:'AirPods Max 24KT Gold Edition',
     cat:{ pt:'Acessórios · Ouro 24KT', en:'Accessories · 24KT Gold', ar:'إكسسوارات · ذهب 24 قيراط' },
     price:'Consulte',
-    desc:{ pt:'AirPods Max banhados a ouro 24KT com gravação personalizada. Produzidos nos EAU com garantia de 24 meses.', en:'24KT gold-plated AirPods Max with custom engraving. Made in UAE with 24-month warranty.', ar:'سماعات AirPods Max مطلية بذهب 24 قيراط مع نقش مخصص. صُنعت في الإمارات مع ضمان 24 شهراً.' },
-    features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada exclusiva','Produzido nos Emirados Árabes','Garantia 24 meses','Embalagem premium','Certificado de autenticidade'], en:['24KT gold plating','Exclusive custom engraving','Made in UAE','24-month warranty','Premium packaging','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص حصري','صُنع في الإمارات','ضمان 24 شهراً','تغليف فاخر','شهادة الأصالة'] }
+    desc:{ pt:'AirPods Max banhados a ouro 24KT com gravação personalizada. Produzidos nos EAU com garantia de 12 meses.', en:'24KT gold-plated AirPods Max with custom engraving. Made in UAE with 12-month warranty.', ar:'سماعات AirPods Max مطلية بذهب 24 قيراط مع نقش مخصص. صُنعت في الإمارات مع ضمان 12 شهراً.' },
+    features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada exclusiva','Produzido nos Emirados Árabes','Garantia 12 meses','Embalagem premium','Certificado de autenticidade'], en:['24KT gold plating','Exclusive custom engraving','Made in UAE','12-month warranty','Premium packaging','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص حصري','صُنع في الإمارات','ضمان 12 شهراً','تغليف فاخر','شهادة الأصالة'] }
   },
   {
     id:12, img:'assets/images/airpods-gold-1.jpeg', category:'acessorio', badge:'EXCLUSIVO',
@@ -240,7 +240,7 @@ const PRODUCTS = [
     cat:{ pt:'Acessórios · Sob Encomenda', en:'Accessories · Custom Order', ar:'إكسسوارات · طلب مخصص' },
     price:'Consulte',
     desc:{ pt:'Crie seu AirPods Max único: banhado a ouro 24KT com seu nome, número ou símbolo gravado. Peça exclusiva feita sob encomenda.', en:'Create your unique AirPods Max: 24KT gold-plated with your name, number or symbol engraved. Exclusive custom-made piece.', ar:'أنشئ سماعات AirPods Max الفريدة الخاصة بك: مطلية بذهب 24 قيراط مع نقش اسمك أو رقمك أو رمزك. قطعة حصرية مصنوعة بالطلب.' },
-    features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada com seu nome/número','Feito sob encomenda','Produzido nos Emirados Árabes','Garantia 24 meses','Certificado de autenticidade'], en:['24KT gold plating','Custom engraving with your name/number','Made to order','Made in UAE','24-month warranty','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص باسمك/رقمك','مصنوع بالطلب','صُنع في الإمارات','ضمان 24 شهراً','شهادة الأصالة'] }
+    features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada com seu nome/número','Feito sob encomenda','Produzido nos Emirados Árabes','Garantia 12 meses','Certificado de autenticidade'], en:['24KT gold plating','Custom engraving with your name/number','Made to order','Made in UAE','12-month warranty','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص باسمك/رقمك','مصنوع بالطلب','صُنع في الإمارات','ضمان 12 شهراً','شهادة الأصالة'] }
   }
 ];
 
