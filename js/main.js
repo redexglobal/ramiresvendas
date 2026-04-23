@@ -179,28 +179,12 @@ const PRODUCTS = [
     features:{ pt:['Banhamento rose gold 24KT','Águia em alto relevo','Molduras ornamentais','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT rose gold plating','Eagle in high relief','Ornamental frames','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب وردي 24 قيراط','نسر بارز','إطارات زخرفية','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
   },
   {
-    id:5, img:'assets/images/p-22.jpeg', category:'iphone', badge:'NOVO',
-    name:'iPhone 17 Pro Max 256GB Gucci Bee',
-    cat:{ pt:'iPhone · Gucci Edition', en:'iPhone · Gucci Edition', ar:'آيفون · إصدار غوتشي' },
-    price:'Consulte',
-    desc:{ pt:'Monograma Gucci em ouro com abelha central cravejada de diamantes e listras multicoloridas.', en:'Gucci monogram in gold with diamond-studded bee and multicolored stripes.', ar:'مونوغرام غوتشي ذهبي مع نحلة مرصعة بالألماس وخطوط متعددة الألوان.' },
-    features:{ pt:['Banhamento em ouro 24KT','Monograma Gucci gravado','Abelha com diamantes','Listras multicoloridas','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['24KT gold plating','Gucci monogram engraved','Diamond-studded bee','Multicolored stripes','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','مونوغرام غوتشي منقوش','نحلة بالألماس','خطوط متعددة الألوان','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
-  },
-  {
     id:6, img:'assets/images/iphone-luxury-bee.jpeg', category:'iphone', badge:null,
     name:'iPhone 17 Pro Max 256GB Luxury 2026',
     cat:{ pt:'iPhone · Luxury 2026', en:'iPhone · Luxury 2026', ar:'آيفون · فاخر 2026' },
     price:'Consulte',
     desc:{ pt:'Edição 2026 com abelha dourada em relevo e acabamento rose gold com brilho espelhado incomparável.', en:'2026 edition with raised gold bee and rose gold finish with incomparable mirror shine.', ar:'إصدار 2026 مع نحلة ذهبية بارزة وتشطيب ذهب وردي مع لمعة مرآوية لا مثيل لها.' },
     features:{ pt:['Acabamento rose gold','Abelha dourada em relevo','Edição 2026 exclusiva','iPhone 17 Pro Max 256GB original','Certificado de autenticidade'], en:['Rose gold finish','Raised gold bee','Exclusive 2026 edition','Original iPhone 17 Pro Max 256GB','Certificate of authenticity'], ar:['تشطيب ذهب وردي','نحلة ذهبية بارزة','إصدار 2026 حصري','آيفون 17 برو ماكس 256GB أصلي','شهادة الأصالة'] }
-  },
-  {
-    id:7, img:'assets/images/iphone-caixa-gold.jpeg', category:'iphone', badge:null,
-    name:'iPhone 17 Pro Max 256GB Kit Gold',
-    cat:{ pt:'iPhone · Kit Premium', en:'iPhone · Premium Kit', ar:'آيفون · الطقم الفاخر' },
-    price:'Consulte',
-    desc:{ pt:'Kit completo com iPhone 24KT em caixa premium banhada a ouro e certificado de autenticidade.', en:'Complete kit with 24KT iPhone in premium gold-plated box and certificate of authenticity.', ar:'طقم كامل مع آيفون 24 قيراط في صندوق مطلي بالذهب وشهادة الأصالة.' },
-    features:{ pt:['iPhone 17 Pro Max 256GB 24KT','Caixa premium banhada a ouro','Certificado de autenticidade','Embalagem de presente','Entrega rastreada'], en:['iPhone 17 Pro Max 256GB 24KT','Premium gold-plated box','Certificate of authenticity','Gift packaging','Tracked delivery'], ar:['آيفون 17 برو ماكس 256GB 24 قيراط','صندوق مطلي بالذهب','شهادة الأصالة','تغليف هدية','توصيل مع تتبع'] }
   },
   {
     id:8, img:'assets/images/watch-colecao.jpeg', category:'watch', badge:'COLEÇÃO',

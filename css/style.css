@@ -415,6 +415,7 @@ em { font-style: italic; color: var(--gold); }
    ============================================= */
 .sobre-section { padding: 96px 0; background: var(--bg); }
 .sobre-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+.sobre-grid-single { grid-template-columns: 1fr; max-width: 720px; margin: 0 auto; }
 .sobre-img { position: relative; border-radius: 8px; overflow: hidden; aspect-ratio: 4/5; }
 .sobre-img img { width: 100%; height: 100%; object-fit: cover; }
 .sobre-img::before {
