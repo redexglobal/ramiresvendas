@@ -225,6 +225,86 @@ const PRODUCTS = [
     price:'Consulte',
     desc:{ pt:'Crie seu AirPods Max único: banhado a ouro 24KT com seu nome, número ou símbolo gravado. Peça exclusiva feita sob encomenda.', en:'Create your unique AirPods Max: 24KT gold-plated with your name, number or symbol engraved. Exclusive custom-made piece.', ar:'أنشئ سماعات AirPods Max الفريدة الخاصة بك: مطلية بذهب 24 قيراط مع نقش اسمك أو رقمك أو رمزك. قطعة حصرية مصنوعة بالطلب.' },
     features:{ pt:['Banhamento em ouro 24KT','Gravação personalizada com seu nome/número','Feito sob encomenda','Produzido nos Emirados Árabes','Garantia 12 meses','Certificado de autenticidade'], en:['24KT gold plating','Custom engraving with your name/number','Made to order','Made in UAE','12-month warranty','Certificate of authenticity'], ar:['طلاء ذهب 24 قيراط','نقش مخصص باسمك/رقمك','مصنوع بالطلب','صُنع في الإمارات','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:13, img:'assets/images/new-snake-python.jpeg', category:'iphone', badge:'EXCLUSIVO',
+    name:'iPhone 17 Pro Max 256GB Python Snake',
+    cat:{ pt:'iPhone · Python Edition', en:'iPhone · Python Edition', ar:'آيفون · إصدار الثعبان' },
+    price:'Consulte',
+    desc:{ pt:'Couro de cobra python multicolorido com serpente dourada 24KT em relevo. Peça única e selvagem.', en:'Multicolored python snake leather with raised 24KT gold serpent. A wild and unique piece.', ar:'جلد ثعبان بيثون متعدد الألوان مع ثعبان ذهبي 24 قيراط بارز. قطعة فريدة وجريئة.' },
+    features:{ pt:['Couro de cobra python genuíno','Serpente dourada 24KT em relevo','Moldura em ouro 24KT','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Genuine python snake leather','Raised 24KT gold serpent','24KT gold frame','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['جلد ثعبان بيثون أصلي','ثعبان ذهبي 24 قيراط بارز','إطار ذهب 24 قيراط','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:14, img:'assets/images/new-snake-box.jpeg', category:'iphone', badge:'NOVO',
+    name:'iPhone 17 Pro Max 256GB Python Rose',
+    cat:{ pt:'iPhone · Python Rose Edition', en:'iPhone · Python Rose Edition', ar:'آيفون · إصدار بيثون وردي' },
+    price:'Consulte',
+    desc:{ pt:'Couro de cobra python rosa e cinza com serpente dourada 24KT. Acompanha caixa premium em veludo vinho.', en:'Rose and grey python leather with 24KT gold serpent. Includes premium wine velvet box.', ar:'جلد بيثون وردي ورمادي مع ثعبان ذهبي 24 قيراط. يأتي مع صندوق مخمل نبيذي فاخر.' },
+    features:{ pt:['Couro de cobra python rosa/cinza','Serpente dourada 24KT','Caixa premium em veludo vinho','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Rose/grey python leather','24KT gold serpent','Premium wine velvet box','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['جلد بيثون وردي/رمادي','ثعبان ذهبي 24 قيراط','صندوق مخمل نبيذي فاخر','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:15, img:'assets/images/new-india-ashoka.jpeg', category:'iphone', badge:'EXCLUSIVO',
+    name:'iPhone 17 Pro Max 256GB India 24KT',
+    cat:{ pt:'iPhone · India Edition', en:'iPhone · India Edition', ar:'آيفون · الإصدار الهندي' },
+    price:'Consulte',
+    desc:{ pt:'Emblema Ashoka com leões em ouro sólido 24KT e bordas cravejadas de diamantes. Edição comemorativa.', en:'Ashoka lion emblem in solid 24KT gold with diamond-encrusted borders. Commemorative edition.', ar:'شعار أشوكا بالأسود من الذهب الصلب 24 قيراط مع حدود مرصعة بالألماس. إصدار تذكاري.' },
+    features:{ pt:['Emblema Ashoka em ouro sólido 24KT','Bordas cravejadas de diamantes','Fundo dourado espelhado','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Solid 24KT gold Ashoka emblem','Diamond-encrusted borders','Mirror gold finish','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['شعار أشوكا من الذهب الصلب 24 قيراط','حدود مرصعة بالألماس','تشطيب ذهبي مرآوي','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:16, img:'assets/images/new-dollar-edition.jpeg', category:'iphone', badge:'NOVO',
+    name:'iPhone 17 Pro Max 256GB Dollar Edition',
+    cat:{ pt:'iPhone · Dollar Edition', en:'iPhone · Dollar Edition', ar:'آيفون · إصدار الدولار' },
+    price:'Consulte',
+    desc:{ pt:'Design inspirado na nota de $100 com moeda de diamantes cravejada. Ouro 24KT com detalhes ousados.', en:'Design inspired by the $100 bill with diamond-studded coin. 24KT gold with bold details.', ar:'تصميم مستوحى من ورقة 100 دولار مع عملة مرصعة بالألماس. ذهب 24 قيراط بتفاصيل جريئة.' },
+    features:{ pt:['Design nota de $100 em ouro 24KT','Moeda de dólar cravejada de diamantes','Acabamento dourado espelhado','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['$100 bill design in 24KT gold','Diamond-studded dollar coin','Mirror gold finish','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['تصميم ورقة 100 دولار بذهب 24 قيراط','عملة دولار مرصعة بالألماس','تشطيب ذهبي مرآوي','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:17, img:'assets/images/new-pink-limited.jpeg', category:'iphone', badge:'LIMITED',
+    name:'iPhone 17 Pro Max 256GB Pink Limited Edition',
+    cat:{ pt:'iPhone · Pink Limited Edition', en:'iPhone · Pink Limited Edition', ar:'آيفون · الإصدار الوردي المحدود' },
+    price:'Consulte',
+    desc:{ pt:'iPhone 17 Pro Max em rosa exclusivo. Cor única disponível apenas em edição limitada Ramires.', en:'iPhone 17 Pro Max in exclusive pink. Unique color available only as a limited Ramires edition.', ar:'آيفون 17 برو ماكس بلون وردي حصري. لون فريد متاح فقط كإصدار محدود من راميريس.' },
+    features:{ pt:['Cor rosa exclusiva edição limitada','Acabamento premium fosco','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Exclusive limited edition pink color','Premium matte finish','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['لون وردي حصري إصدار محدود','تشطيب مات فاخر','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:18, img:'assets/images/new-lion-crown.jpeg', category:'iphone', badge:'EXCLUSIVO',
+    name:'iPhone 17 Pro Max 256GB Lion Crown',
+    cat:{ pt:'iPhone · Lion Crown Edition', en:'iPhone · Lion Crown Edition', ar:'آيفون · إصدار أسد التاج' },
+    price:'Consulte',
+    desc:{ pt:'Leão coroado em ouro 24KT com pedras preciosas coloridas incrustadas. Símbolo de poder e realeza.', en:'Crowned lion in 24KT gold with inlaid colorful precious stones. Symbol of power and royalty.', ar:'أسد متوج من الذهب 24 قيراط مع أحجار كريمة ملونة. رمز القوة والملوكية.' },
+    features:{ pt:['Leão coroado em alto relevo','Pedras preciosas coloridas incrustadas','Ouro 24KT espelhado','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['High-relief crowned lion','Inlaid colorful precious stones','Mirror 24KT gold','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['أسد متوج بارز','أحجار كريمة ملونة مرصعة','ذهب 24 قيراط مرآوي','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:19, img:'assets/images/new-lion-rose.jpeg', category:'iphone', badge:'NOVO',
+    name:'iPhone 17 Pro Max 256GB Lion Rose Gold',
+    cat:{ pt:'iPhone · Lion Rose Edition', en:'iPhone · Lion Rose Edition', ar:'آيفون · إصدار أسد الذهب الوردي' },
+    price:'Consulte',
+    desc:{ pt:'Leão dourado gravado em fundo rose gold salmão. Elegância e força em uma peça única.', en:'Engraved gold lion on a salmon rose gold background. Elegance and strength in one unique piece.', ar:'أسد ذهبي منقوش على خلفية ذهب وردي سلموني. أناقة وقوة في قطعة واحدة.' },
+    features:{ pt:['Leão dourado gravado em relevo','Fundo rose gold exclusivo','Banhamento ouro 24KT','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Raised engraved gold lion','Exclusive rose gold background','24KT gold plating','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['أسد ذهبي منقوش بارز','خلفية ذهب وردي حصرية','طلاء ذهب 24 قيراط','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:20, img:'assets/images/new-iraq-edition.jpeg', category:'iphone', badge:'EXCLUSIVO',
+    name:'iPhone 17 Pro Max 256GB Iraq Edition',
+    cat:{ pt:'iPhone · Iraq Edition', en:'iPhone · Iraq Edition', ar:'آيفون · الإصدار العراقي' },
+    price:'Consulte',
+    desc:{ pt:'Emblema iraquiano com águia e bandeira colorida em ouro 24KT. Edição comemorativa exclusiva.', en:'Iraqi emblem with eagle and colorful flag in 24KT gold. Exclusive commemorative edition.', ar:'الشعار العراقي مع النسر والعلم الملون بذهب 24 قيراط. إصدار تذكاري حصري.' },
+    features:{ pt:['Emblema iraquiano em ouro 24KT','Águia com bandeira colorida','Acabamento espelhado premium','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Iraqi emblem in 24KT gold','Eagle with colorful flag','Premium mirror finish','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['الشعار العراقي بذهب 24 قيراط','نسر مع العلم الملون','تشطيب مرآوي فاخر','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:21, img:'assets/images/new-godfather.jpeg', category:'iphone', badge:'NOVO',
+    name:'iPhone 17 Pro Max 256GB The Godfather',
+    cat:{ pt:'iPhone · Godfather Edition', en:'iPhone · Godfather Edition', ar:'آيفون · إصدار العراب' },
+    price:'Consulte',
+    desc:{ pt:'iPhone preto com logo Apple dourado e gravação "The Godfather". Estilo cinematográfico e sofisticado.', en:'Black iPhone with gold Apple logo and "The Godfather" engraving. Cinematic and sophisticated style.', ar:'آيفون أسود مع شعار آبل ذهبي ونقش "The Godfather". أسلوب سينمائي راقٍ.' },
+    features:{ pt:['Carcaça preta premium','Logo Apple em ouro 24KT','Gravação The Godfather','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Premium black casing','24KT gold Apple logo','The Godfather engraving','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['هيكل أسود فاخر','شعار آبل بذهب 24 قيراط','نقش The Godfather','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:22, img:'assets/images/new-crocodile-baroque.jpeg', category:'iphone', badge:'EXCLUSIVO',
+    name:'iPhone 17 Pro Max 256GB Crocodile Baroque',
+    cat:{ pt:'iPhone · Crocodile Edition', en:'iPhone · Crocodile Edition', ar:'آيفون · إصدار التمساح' },
+    price:'Consulte',
+    desc:{ pt:'Couro de crocodilo negro com arabescos barrocos em ouro 24KT. A fusão perfeita de natureza e luxo.', en:'Black crocodile leather with baroque arabesques in 24KT gold. The perfect fusion of nature and luxury.', ar:'جلد تمساح أسود مع زخارف باروكية بذهب 24 قيراط. الدمج المثالي بين الطبيعة والفخامة.' },
+    features:{ pt:['Couro de crocodilo negro genuíno','Arabescos barrocos em ouro 24KT','Moldura e câmera totalmente douradas','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Genuine black crocodile leather','Baroque arabesques in 24KT gold','Fully gold frame and camera','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['جلد تمساح أسود أصلي','زخارف باروكية بذهب 24 قيراط','إطار وكاميرا ذهبيان بالكامل','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
   }
 ];
 
@@ -315,6 +395,9 @@ function renderProducts() {
       <div class="product-img">
         <img src="${p.img}" alt="${p.name}" loading="lazy" />
         ${p.badge ? `<div class="product-badge">${p.badge}</div>` : ''}
+        <button class="btn-eye" onclick="openLightbox('${p.img}')" title="Ver foto completa">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </button>
         <div class="product-overlay">
           <button class="btn-quick" onclick="openModal(${p.id})">${T[lang].btn_details}</button>
         </div>
@@ -402,7 +485,7 @@ function updateCartUI() {
 }
 
 function addToCart(id) {
-  const product = PRODUCTS[id];
+  const product = PRODUCTS.find(p => p.id === id);
   if (!product) return;
   if (!cart.find(i => i.id === id)) {
     cart.push({ id: product.id, name: product.name, img: product.img, price: product.price });
@@ -447,7 +530,7 @@ cartOverlay.addEventListener('click', closeCartSidebar);
    MODAL
    ============================================= */
 function openModal(id) {
-  const p = PRODUCTS[id];
+  const p = PRODUCTS.find(pr => pr.id === id);
   if (!p) return;
   currentModalId = id;
   document.getElementById('modalImg').innerHTML = `<img src="${p.img}" alt="${p.name}" />`;
@@ -477,9 +560,32 @@ function closeModal() {
 }
 
 window.openModal = openModal;
+
+/* =============================================
+   LIGHTBOX
+   ============================================= */
+function openLightbox(src) {
+  const overlay = document.getElementById('lightboxOverlay');
+  const img = document.getElementById('lightboxImg');
+  if (!overlay || !img) return;
+  img.src = src;
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  const overlay = document.getElementById('lightboxOverlay');
+  if (!overlay) return;
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+window.openLightbox = openLightbox;
+window.closeLightbox = closeLightbox;
 document.getElementById('modalClose').addEventListener('click', closeModal);
 document.getElementById('modalOverlay').addEventListener('click', e => {
   if (e.target === document.getElementById('modalOverlay')) closeModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeModal(); closeLightbox(); }
 });
 
 /* =============================================

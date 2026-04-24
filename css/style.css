@@ -589,6 +589,63 @@ em { font-style: italic; color: var(--gold); }
 .cart-wpp-btn { width: 100%; justify-content: center; }
 
 /* =============================================
+   EYE BUTTON
+   ============================================= */
+.btn-eye {
+  position: absolute;
+  bottom: 10px; right: 10px;
+  width: 34px; height: 34px;
+  background: rgba(0,0,0,0.55);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: var(--transition);
+  z-index: 3;
+  backdrop-filter: blur(4px);
+}
+.btn-eye svg { width: 15px; height: 15px; }
+.btn-eye:hover { background: var(--gold); border-color: var(--gold); color: #111; transform: scale(1.1); }
+[dir="rtl"] .btn-eye { right: auto; left: 10px; }
+
+/* =============================================
+   LIGHTBOX
+   ============================================= */
+.lightbox-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.93);
+  z-index: 400;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s ease;
+  cursor: zoom-out;
+}
+.lightbox-overlay.open { opacity: 1; pointer-events: all; }
+.lightbox-img {
+  max-width: min(90vw, 700px);
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.6);
+  transform: scale(0.94);
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+.lightbox-overlay.open .lightbox-img { transform: scale(1); }
+.lightbox-close {
+  position: absolute; top: 20px; right: 20px;
+  width: 38px; height: 38px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 50%;
+  color: #fff; font-size: 1.4rem;
+  display: flex; align-items: center; justify-content: center;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.lightbox-close:hover { background: var(--gold); color: #111; }
+
+/* =============================================
    SCROLLBAR
    ============================================= */
 ::-webkit-scrollbar { width: 5px; }
