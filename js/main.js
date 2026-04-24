@@ -45,7 +45,7 @@ const T = {
     cart_total:'Total', cart_checkout:'Fechar Pedido no WhatsApp',
     modal_add:'Adicionar ao Carrinho', modal_consult:'Consultar Preço',
     wpp_greeting:'Olá! Vim pelo site brilhante de vocês ✨ e gostaria de mais informações sobre os produtos.',
-    wpp_cart_intro:'Olá! Vim pelo site brilhante de vocês ✨\n\nTenho interesse nos seguintes produtos:\n',
+    wpp_cart_intro:'Olá! Vim pelo site brilhante de vocês ✨\n\nTenho interesse: \n\n',
     wpp_cart_closing:'\n\nAguardo atendimento! 🙏',
   },
   en: {
