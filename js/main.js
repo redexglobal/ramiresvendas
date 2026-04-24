@@ -305,6 +305,14 @@ const PRODUCTS = [
     price:'Consulte',
     desc:{ pt:'Couro de crocodilo negro com arabescos barrocos em ouro 24KT. A fusão perfeita de natureza e luxo.', en:'Black crocodile leather with baroque arabesques in 24KT gold. The perfect fusion of nature and luxury.', ar:'جلد تمساح أسود مع زخارف باروكية بذهب 24 قيراط. الدمج المثالي بين الطبيعة والفخامة.' },
     features:{ pt:['Couro de crocodilo negro genuíno','Arabescos barrocos em ouro 24KT','Moldura e câmera totalmente douradas','iPhone 17 Pro Max 256GB original','Garantia 12 meses','Certificado de autenticidade'], en:['Genuine black crocodile leather','Baroque arabesques in 24KT gold','Fully gold frame and camera','Original iPhone 17 Pro Max 256GB','12-month warranty','Certificate of authenticity'], ar:['جلد تمساح أسود أصلي','زخارف باروكية بذهب 24 قيراط','إطار وكاميرا ذهبيان بالكامل','آيفون 17 برو ماكس 256GB أصلي','ضمان 12 شهراً','شهادة الأصالة'] }
+  },
+  {
+    id:23, img:'assets/images/iphone-17-promax-gold-bestseller.jpeg', category:'iphone', badge:'MAIS VENDIDO',
+    name:'iPhone 17 Pro Max 256GB 24KT Gold Limited Edition',
+    cat:{ pt:'iPhone · 24KT Gold · #1 Mais Vendido', en:'iPhone · 24KT Gold · #1 Best Seller', ar:'آيفون · ذهب 24 قيراط · الأكثر مبيعاً' },
+    price:'Consulte',
+    desc:{ pt:'O modelo mais vendido da coleção Ramires. Acabamento espelhado em ouro 24 quilates do início ao fim, dentro de uma caixa premium banhada a ouro. Uma obra-prima que cabe na sua mão.', en:'The best-selling model in the Ramires collection. Mirror finish in 24 karat gold from start to finish, inside a premium gold-plated box. A masterpiece that fits in your hand.', ar:'الأكثر مبيعاً في مجموعة راميريس. تشطيب مرآوي بذهب 24 قيراط من البداية للنهاية، داخل صندوق فاخر مطلي بالذهب. تحفة فنية تناسب يدك.' },
+    features:{ pt:['Banhamento completo em ouro 24KT','Caixa premium banhada a ouro inclusa','Certificado de autenticidade Ramires Imports','Garantia de 12 meses iCloud','iPhone 17 Pro Max 256GB original','Entrega segura em todo o Brasil'], en:['Complete 24KT gold plating','Premium gold-plated box included','Ramires Imports certificate of authenticity','12-month iCloud warranty','Original iPhone 17 Pro Max 256GB','Secure delivery across Brazil'], ar:['طلاء ذهب 24 قيراط كامل','صندوق فاخر مطلي بالذهب مشمول','شهادة أصالة راميريس إمبورتس','ضمان 12 شهراً عبر iCloud','آيفون 17 برو ماكس 256GB أصلي','توصيل آمن لجميع أنحاء البرازيل'] }
   }
 ];
 
